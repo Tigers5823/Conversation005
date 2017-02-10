@@ -26,7 +26,7 @@ public class SimpleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        response.getWriter().print("Hello World!");
+        response.getWriter().print("OK bokujou!");
 
         ConversationService service = new ConversationService("2016-09-20");
         service.setUsernameAndPassword("f45c965e-919d-4f8a-a9e9-54a62512837f", "dVg7kHTD4SsH");
