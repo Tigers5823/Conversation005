@@ -8,7 +8,7 @@
 </head>
 <body>
 	<H1>テキスト入力エリア</H1>
-	<form method="post" action="">
+	<form method="post" action="../java/wasdev/sample/servlet/SimpleServlet">
 		<input type="text" name="textarea001" size="200">
 		<input type="submit" value="text_to_conv001">
 	</form>
